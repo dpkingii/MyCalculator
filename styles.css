@@ -1,1 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
 
+#calc{
+    margin-top: 5vh;
+    background-color: #758173;
+    padding: 10px;
+    border-radius: 25px;
+    width: 50vw;
+    height: 50vw;
+}
+
+#resut{
+    color: white;
+}
+
+input[type="button"] { 
+    width: 100%; 
+    padding: 3vw 6vh; 
+    background-color:  #A8C5A0; 
+    color: white; 
+    font-size: 2em; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 60px; 
+} 
+  
+input[type="text"] { 
+    padding: 5vh 7vw; 
+    font-size: 24px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 15px; 
+    border: .5px solid white; 
+    background-color: #758173;
+} 
