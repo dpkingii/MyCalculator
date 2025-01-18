@@ -13,8 +13,11 @@ body{
     height: 50vw;
 }
 
-#resut{
+#result{
+    text-align:end;
+    padding-right: 1vw;
     color: white;
+    font-size: 2em;
 }
 
 input[type="button"] { 
